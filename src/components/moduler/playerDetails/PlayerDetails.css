@@ -1,0 +1,248 @@
+/* eslint-disable */
+.player-details {
+  padding: 20px;
+  flex: 1;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.player-details-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 100%;
+  margin: -50px auto 0;
+  position: relative;
+}
+
+.sold {
+  opacity: 0.5;
+  z-index: 1;
+  position: relative;
+}
+
+.sold_image_container {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.player-photo {
+  margin-right: 20px;
+  margin-top: 140px;
+  
+}
+
+.player-photo img {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.433);
+}
+
+/* Media query for screens larger than 1400px - MACBOOK pro*/
+@media (min-width: 1201px) {
+  .player-photo {
+    flex: 0 0 40%;
+    margin-right: 25px;
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .player-photo {
+    flex: 0 0 50%;
+    margin-right: 25px;
+    margin-top: 140px;
+  }
+}
+
+/* For 55-inch 4K Ultra HD (3840x2160) screen with a pixel density of 80 PPI */
+@media (min-width: 3840px) {
+  .player-photo {
+    flex: 0 0 20%;
+    margin-right: 25px;
+    margin-top: 140px;
+  }
+}
+
+/* For 75-inch 8K Ultra HD (7680x4320) screen with a pixel density of 100 PPI */
+@media (min-width: 7680px) {
+  .player-photo {
+    flex: 0 0 20%;
+    margin-right: 25px;
+    margin-top: 140px;
+  }
+}
+
+.player-info {
+  flex: 1;
+  margin-bottom: 25px;
+}
+
+.player-info h2 {
+  font-size: 55px;
+  font-family: 'Cervo Neue Semibold';
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.player-stats {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Cervo Neue Regular';
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.player-stats p {
+  font-size: 23px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: end;
+}
+
+/* Media query for screen sizes between 1201px and 1919px */
+@media (min-width: 1201px) and (max-width: 1919px) {
+  .player-info h2 {
+    font-size: 55px;
+  }
+
+  .player-stats p {
+    font-size: 23px;
+  }
+}
+
+/* Media query for screen sizes between 1201px and 1919px */
+@media (min-width: 1920px) {
+  .player-info h2 {
+    margin-bottom: 8%;
+    font-size: 55px;
+    justify-content: center;
+  }
+
+  .player-stats p {
+    margin-bottom: 1%;
+    font-size: 33px;
+  }
+}
+
+/* Element shape for batting and bowling styles */
+.element-shape {
+  padding: 5px 25px 5px 50px;
+  background:white;
+  color: black;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-right: 25px;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+}
+
+
+.element-shape2-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.element-shape2-box {
+  flex: 1;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50%;
+
+  display: flex;
+}
+.element-shape2-box:not(:last-child) {
+  margin-right: 10px;
+}
+
+.element-shape2-container p {
+  margin: 0;
+  justify-content: center;
+  
+}
+
+ .batting-details-label2 {
+  font-size: 45px; 
+  justify-content: center;
+  display: flex;
+}
+.batting-details-value2{
+  font-size: 45px;
+  justify-content: center;
+display: flex;
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+}
+
+@font-face {
+  font-family: 'Roboto Semibold';
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+}
+
+/* CSS for Batting style label */
+.batting-details-label {
+  font-family: 'Cervo Neue Semibold';
+  font-size: 35px;
+}
+
+/* CSS for Batting style value */
+.batting-details-value {
+  font-family: 'Cervo Neue Semibold';
+  font-size: 35px;
+}
+
+.player-circle {
+  position: absolute;
+  top: 80px;
+  right: 0%;
+  z-index: 1;
+}
+
+.circle-label {
+  position: relative;
+  top: 0px; /* Adjust the distance of the label from the circle */
+  left: 30%;
+  transform: translateX(-50%); /* Center the label horizontally */
+  padding: 5px 25px;
+  /* border-radius: 8px; */
+  color: #fff;
+  font-family: 'Cervo Neue Semibold';
+  font-size: x-large;
+}
+
+.player-details-placeholder {
+  position: absolute;
+  top: 800%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  /* font-weight: bold; */
+  font-family: 'Cervo Neue Semibold';
+  color: #00004c;
+  width: 100%;
+  text-align: center;
+}
