@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/micl/static/css/main.e0773866.css",
+    "main.js": "/micl/static/js/main.7ae58ac1.js",
+    "static/media/Typoforge Studio - CervoNeue-SemiBoldNeue.otf": "/micl/static/media/Typoforge Studio - CervoNeue-SemiBoldNeue.c48c513d4fd40345ad26.otf",
+    "static/media/Typoforge Studio - CervoNeue-RegularNeue.otf": "/micl/static/media/Typoforge Studio - CervoNeue-RegularNeue.a0d4b3918a411c1433f2.otf",
+    "static/media/Typoforge Studio - CervoNeue-ThinNeue.otf": "/micl/static/media/Typoforge Studio - CervoNeue-ThinNeue.e6bad823592db08b0f34.otf",
+    "index.html": "/micl/index.html",
+    "main.e0773866.css.map": "/micl/static/css/main.e0773866.css.map",
+    "main.7ae58ac1.js.map": "/micl/static/js/main.7ae58ac1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0773866.css",
+    "static/js/main.7ae58ac1.js"
+  ]
+}
