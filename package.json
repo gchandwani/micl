@@ -1,6 +1,7 @@
 {
   "name": "mobiquity_cricket_app",
   "version": "0.1.0",
+  "homepage": "https://gchandwani.github.io/micl/",
   "private": true,
   "dependencies": {
     "@babel/eslint-parser": "^7.22.10",

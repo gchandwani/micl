@@ -209,7 +209,7 @@ export default function TeamDetails({ teamInfo }) {
                       <TableCell>
                         <Box sx={teamDetailsStyles.playerRow}>
                           <Avatar
-                            src={`/assets/${player.photo}`}
+                            src={`/micl/assets/${player.photo}`}
                             alt={player.name}
                             sx={teamDetailsStyles.playerImage}
                           />

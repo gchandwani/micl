@@ -290,7 +290,7 @@ function PlayerDetails({ selectedPlayer }) {
             )}
             <div className="player-photo">
               {selectedPlayer.photo ? (
-                <img src={`/assets/${selectedPlayer.photo}`} alt={selectedPlayer.name} />
+                <img src={`/micl/assets/${selectedPlayer.photo}`} alt={selectedPlayer.name} />
               ) : (
                 <img
                   src="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg"

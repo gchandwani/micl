@@ -45,7 +45,7 @@ body {
   width: 100%;
   height: 100%;
   background: hsl(213, 44%, 95%);
-  background: url('assets/BG.jpg') no-repeat center center fixed;
+  background: url('%PUBLIC_URL%/assets/BG.jpg') no-repeat center center fixed;
   /* background: url('assets/MCL_logo.png') no-repeat center calc(100vh - 730px) fixed; */
   /* background-size: 42% auto; */
   /* opacity: 0.05; */
