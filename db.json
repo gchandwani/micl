@@ -12,9 +12,7 @@
       "photo": "IMG_4436_Niketan Patel.jpeg",
       "basePrice": 4,
       "Category": "A",
-      "isSold": true,
-      "soldPrice": 20,
-      "soldTo": 1
+      "isSold": false
     },
     {
       "id": 2,
@@ -28,9 +26,7 @@
       "photo": "profile_pic_Jayesh Thadani.jpg",
       "basePrice": 4,
       "Category": "A",
-      "isSold": true,
-      "soldPrice": 45,
-      "soldTo": 2
+      "isSold": false
     },
     {
       "id": 4,
@@ -58,9 +54,7 @@
       "photo": "IMG_3242_Aman Prajapati.jpg",
       "basePrice": 4,
       "Category": "A",
-      "isSold": true,
-      "soldPrice": 32,
-      "soldTo": 2
+      "isSold": false
     },
     {
       "id": 6,
@@ -936,67 +930,17 @@
       "id": 1,
       "name": "Masters (Milan)",
       "totalKitty": 100000,
-      "availableKitty": 80000,
+      "availableKitty": 100000,
       "totalPlayer": 14,
-      "players": [
-        {
-          "id": 1,
-          "name": "Niketan Patel",
-          "battingStyle": "Right Hand Bat",
-          "bowlingStyle": "Right arm medium",
-          "runs": 1224,
-          "average": 14.57,
-          "wickets": 131,
-          "economy": 8.21,
-          "photo": "IMG_4436_Niketan Patel.jpeg",
-          "basePrice": 4,
-          "Category": "A",
-          "isSold": true,
-          "soldPrice": 20,
-          "soldTo": 1
-        }
-      ]
+      "players": []
     },
     {
       "id": 2,
       "name": "Dominators (Sanjay)",
       "totalKitty": 100000,
-      "availableKitty": 23000,
+      "availableKitty": 100000,
       "totalPlayer": 14,
-      "players": [
-        {
-          "id": 2,
-          "name": "Jayesh Thadani",
-          "battingStyle": "Right Hand Bat",
-          "bowlingStyle": "Right arm fast",
-          "runs": 6419,
-          "average": 19.45,
-          "wickets": 127,
-          "economy": 8.49,
-          "photo": "profile_pic_Jayesh Thadani.jpg",
-          "basePrice": 4,
-          "Category": "A",
-          "isSold": true,
-          "soldPrice": 45,
-          "soldTo": 2
-        },
-        {
-          "id": 5,
-          "name": "Aman Prajapati",
-          "battingStyle": "Right Hand Bat",
-          "bowlingStyle": "Right arm medium",
-          "runs": 1247,
-          "average": 20.44,
-          "wickets": 70,
-          "economy": 8.25,
-          "photo": "IMG_3242_Aman Prajapati.jpg",
-          "basePrice": 4,
-          "Category": "A",
-          "isSold": true,
-          "soldPrice": 32,
-          "soldTo": 2
-        }
-      ]
+      "players": []
     },
     {
       "id": 3,
